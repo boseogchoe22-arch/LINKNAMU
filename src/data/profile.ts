@@ -13,8 +13,8 @@ export type Profile = {
 
 // 보여 주기용 더미 데이터. 실제 내용은 나중에 이 파일만 수정하면 된다.
 export const profile: Profile = {
-  name: "김나무",
-  bio: "코드를 심고 링크를 키우는 개발자 🌱",
+  name: "최보석",
+  bio: "광학 설계자 → CLAUDE 사용자",
   avatar: "/avatar.svg",
   links: [
     { id: "github", title: "GitHub", url: "https://github.com" },

@@ -17,7 +17,11 @@ export default function ProfileHeader({ name, bio, avatar }: Props) {
         priority
         className="h-40 w-40 rounded-full object-cover ring-4 ring-emerald-100 shadow-md sm:h-44 sm:w-44 dark:ring-emerald-900"
       />
-      <h1 className="mt-4 text-xl font-bold sm:text-2xl">{name}</h1>
+      <h1 className="mt-4 text-xl font-bold sm:text-2xl">
+        <span className="rounded-md bg-lime-300 px-2 py-0.5 text-zinc-900 shadow-[0_0_12px_rgba(190,242,100,0.8)]">
+          {name}
+        </span>
+      </h1>
       <p className="mt-1 text-sm text-zinc-600 sm:text-base dark:text-zinc-400">
         {bio}
       </p>
